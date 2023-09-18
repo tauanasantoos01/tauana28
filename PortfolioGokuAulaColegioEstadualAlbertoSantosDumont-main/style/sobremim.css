@@ -13,7 +13,7 @@ body {
     height: 100vh;
 
     /* Cria um gradiente de cores de cima para baixo como plano de fundo */
-    background: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
+    background: linear-gradient(to bottom, #040404, #6a0475, #971285);
 
     /* Define o tamanho de fundo para cobrir toda a área disponível */
     background-size: cover;
@@ -44,8 +44,8 @@ body {
 }
 
 .cabecalho-menu-links{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-family: 'Krona One', sans-serif;;
+    font-size: 25px;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -69,7 +69,7 @@ body {
 
 .titulo{
      /* Define o tamanho da fonte como 40px */
-     font-size: 65px;
+     font-size: 50px;
 
      /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
     font-family: 'Krona One', sans-serif;
@@ -91,7 +91,7 @@ body {
  
      /* Alinha o texto justificado */
      text-align: justify;
-     margin-bottom: 50px;
+     margin-bottom: 45px;
 }
 
 .imagemsobremim {
@@ -104,19 +104,19 @@ body {
     transition: 0.3s ease-in-out; /* Efeito de escurecimento com transição suave quando o mouse passa sobre a imagem */
 }
 
-.unnamed.jpg {
-    filter: brightness(0.7); /* Escurece a imagem em 30% (70% de brilho) ao passar o mouse */
+.imagemsobremim {
+    filter: brightness(1.0); /* Escurece a imagem em 30% (70% de brilho) ao passar o mouse */
 }
 
-.unnamed.jpg {
-    max-width: 100%; /* A imagem se ajustará ao tamanho do contêiner pai */
+.imagemsobremim{
+    max-width: 90%; /* A imagem se ajustará ao tamanho do contêiner pai */
     height: auto;
     border-radius: 500px; /* Adiciona curvatura nos cantos do elemento */
     transition: transform 0.3s ease-in-out; /* Efeito de transição suave ao passar o mouse sobre a imagem */
 }
 
 /* Efeito de escala suave ao passar o mouse sobre a imagem */
-.unnamed.jpg .unnamed.jpg {
+.imagemsobremim{
     transform: scale(1.1); /* Aumenta a escala da imagem em 10% ao passar o mouse */
 }
 
@@ -141,6 +141,6 @@ body {
 
 /* Estilo de link no rodapé */
 .rodape a:hover {
-    color: #0c0c0c;
+    color: #96dfec;
 }
 
