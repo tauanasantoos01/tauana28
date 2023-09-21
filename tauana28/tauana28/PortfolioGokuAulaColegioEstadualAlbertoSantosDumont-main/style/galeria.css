@@ -13,7 +13,7 @@ body {
     height: 100vh;
 
     /* Cria um gradiente de cores de cima para baixo como plano de fundo */
-    background: linear-gradient(to bottom, #040404, #6a0475, #971285);
+    background: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
 
     /* Define o tamanho de fundo para cobrir toda a área disponível */
     background-size: cover;
@@ -44,8 +44,8 @@ body {
 }
 
 .cabecalho-menu-links{
-    font-family: 'Krona One', sans-serif;;
-    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -85,7 +85,7 @@ body {
 /* Estilização do título da galeria */
 .titulogaleria {
     /* Define o tamanho da fonte como 36px */
-    font-size: 40px;
+    font-size: 36px;
 
     /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
     font-family: 'Krona One', sans-serif;
@@ -153,11 +153,11 @@ body {
 
 /* Estilização dos títulos das imagens */
 .itemh2 {
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Krona One', sans-serif;
     margin-top: 10px; /* Espaço entre a imagem e o título */
     text-align: center; /* Centraliza o texto */
-    color: #ffffff; /* Cor da fonte preta */
+    color: #000; /* Cor da fonte preta */
     margin-bottom: 20px; /* Adiciona margem inferior para separar os itens */
 }
 
@@ -171,7 +171,7 @@ body {
     left: 0;
     width: 100%;
     color: white;
-    background-color: #070707;
+    background-color: #800000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,6 +184,6 @@ body {
 
 /* Estilo de link no rodapé */
 .rodape a:hover {
-    color: #96dfec;
+    color: #FFA500;
 }
 
